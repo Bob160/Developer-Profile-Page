@@ -1,0 +1,263 @@
+@import url(https://fonts.googleapis.com/css?family=Prata:regular);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ body {
+    background-color: #000;
+    color: #fff;
+    margin:  0 7rem;
+}
+
+nav .navbar {
+    
+}
+div.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 5.5rem;
+    /* border: 2px solid white; */
+    font-family: "Prata", 'Times New Roman', Times, serif;
+
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.logo > a {
+    text-decoration-line: none;
+    text-decoration: none;
+    color:#fff
+}
+ul.nav-items {
+    display: flex;   
+}
+
+li {
+    list-style: none;
+    margin-right: 2.5rem;
+}
+
+li > a {
+    text-decoration-line: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+button.get-in-touch {
+    width: 6.5rem;
+    height: 2.5rem;
+    background-color: yellow;
+    border: none;
+    font-size: 1rem;
+    font-family: "Prata", 'Times New Roman', Times, serif;
+    
+}
+
+button > a {
+    text-decoration-line: none;
+}
+
+section.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+}
+
+div.intro-container {
+    max-width: 100%;
+
+}
+
+div.intro-container > h2 {
+    font-family: 'Prata', 'Times New Roman', Times, serif;
+    font-size: 3.1rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    margin-top: 4.5rem;
+}
+
+div.intro-container > p {
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-top: 1.5rem;
+    
+}
+
+div.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+div.logo-container > img {
+    width: 7rem;
+}
+
+div.main-container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
+
+div.main-container > div.box-one {
+    max-width: 47%;
+}
+
+div.main-container>div.box-two {
+    max-width: 47%;
+}
+
+div.box-one > img, div.box-two > img {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+div.box-one > h3 > a,
+div.box-two > h3 > a {
+text-decoration-line: none;
+color: #fff;
+font-size: 2rem;
+font-family: 'Inter', 'Times New Roman', Times, serif;
+}
+
+div.box-one > p,
+div.box-two > p {
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+
+}
+
+section.second {
+    background-color: rgb(57, 56, 56);
+    margin-left: -7rem;
+    margin-right: -7rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+div.second-container {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.box-three, div.box-four {
+    max-width: 47%;
+}
+
+div.box-three > h3 {
+    font-size: 2.5rem;
+    font-family: 'Prata',
+    'Times New Roman',
+    Times,
+    serif;
+    font-weight: 700;
+    line-height: 3.1rem;
+    /* margin-top: 4rem; */
+    margin-bottom: 1.5rem;
+}
+
+div.box-three > p {
+    font-family: 'Inter',
+    'Times New Roman',
+    Times,
+    serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+div.box-four > p {
+    font-family: 'Inter',
+    'Times New Roman',
+    Times,
+    serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.8rem;
+    
+}
+
+/* div.box-four :nth-child(1) {
+    padding-top: rem;
+} */
+
+div.box-four {
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-around; */
+}
+
+section.last {
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+}
+
+div.last-container {
+    max-width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
+
+div.last-container > h2 {
+    font-size: 2.5rem;
+    font-family: 'Prata',
+    'Times New Roman',
+    Times,
+    serif;
+    margin-bottom: 1rem;
+    /* font-weight: 700; */
+}
+
+div.last-container > p {
+    font-family: 'Inter',
+    'Times New Roman',
+    Times,
+    serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+footer {
+    background-color: rgb(70, 69, 69);
+    margin-left: -7rem;
+    margin-right: -7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+div.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+div.footer-container > ul > li > a > img {
+    margin-left: 0.5rem;
+}
